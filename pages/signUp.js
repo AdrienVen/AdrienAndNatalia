@@ -21,17 +21,17 @@ export default function Signup() {
 
                 <form className={styles.grid}>
                     <h3 className={styles.field} style={{fontSize:"36px"}}> Name
-                        <input type= "password" name={"pword"} className={styles.grid} ref={register({ required: true })}/>
+                        <input type= "password" name={"pword"} className={styles.grid}/>
                     </h3>
 
 
                     <h3 className={styles.field} style={{fontSize:"36px"}}> Email
-                        <input type="email" name={"mail"} className={styles.grid} ref={register({required:true})}/>
+                        <input type="email" name={"mail"} className={styles.grid}/>
                     </h3>
 
 
                     <h3 className={styles.field} style={{fontSize:"36px"}}> Password
-                        <input type= "password" name={"pword"} className={styles.grid} ref={register({ required: true })}/>
+                        <input type= "password" name={"pword"} className={styles.grid}/>
                     </h3>
                     <input type={"submit"} className={styles.button1} value={"Login"}/>
                 </form>
